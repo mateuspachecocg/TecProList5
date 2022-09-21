@@ -1,1 +1,1 @@
-Resolução da Lista 4  da Disciplina de Técnicas de Programação 2022
+Solutions of fifth list of exercises of Programming Techniques classes in Java Language
