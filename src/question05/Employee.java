@@ -6,6 +6,7 @@ public class Employee {
 	private String secondName;
 	private double monthSalary;
 	private boolean workDay[];
+	private final double baseSalary = 1256.70;
 	
 	public Employee(String firstName, String secondName) {
 		this.firstName = firstName;
@@ -23,7 +24,7 @@ public class Employee {
 	}
 	
 	public void calcMonthSalary() {
-		double baseSalary = 1256.70;
+		
 		int workedDays = 0;
 		for (boolean boo : this.workDay) { // O (n)
 			if (boo) 
@@ -42,6 +43,6 @@ public class Employee {
 			multFactor = 0.20; 
 		}
 		
-		this.monthSalary = baseSalary*multFactor;
+		this.monthSalary = this.baseSalary*multFactor;
 	}
 }
