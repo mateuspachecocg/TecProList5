@@ -18,8 +18,8 @@ public class Robot {
 	}
 
 	public Robot() {
-		px = 0;
-		py = 0;
+		px = 4;
+		py = 4;
 		moveInN = 0;
 		moveInNE = 0;
 		moveInE = 0;
@@ -73,5 +73,13 @@ public class Robot {
 		px--;
 		py++;
 		moveInNW++;
+	}
+	
+	public int getPositionX() {
+		return this.px;
+	}
+	
+	public int getPositionY() {
+		return this.py;
 	}
 }
