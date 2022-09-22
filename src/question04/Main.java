@@ -19,7 +19,7 @@ public class Main {
 		Product product = new Product(name, cp, sp, be);
 		product.calcProfitMargin();
 		
-		System.out.printf("The profit margin of %s is %.2f % .", product.getName(),product.getProfitMargin());
+		System.out.printf("The profit margin of %s is %.2f%%.", product.getName(),product.getProfitMargin());
 		// TODO: CALCULATE AND PROFIT MARGIN
 		input.close();
 	}
